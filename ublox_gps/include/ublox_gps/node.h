@@ -492,7 +492,7 @@ class UbloxNode : public virtual ComponentInterface {
   //! How long to wait during I/O reset [s]
   constexpr static int kResetWait = 10;
   //! how often (in seconds) to call poll messages
-  constexpr static double kPollDuration = 1.0;
+  constexpr static double kPollDuration = 1;
   // Constants used for diagnostic frequency updater
   //! [s] 5Hz diagnostic period
   constexpr static float kDiagnosticPeriod = 0.2;

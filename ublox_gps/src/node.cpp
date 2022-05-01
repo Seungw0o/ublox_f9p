@@ -1858,7 +1858,8 @@ int main(int argc, char** argv) {
 
   ros::NodeHandle param_nh("~");
   std::string rtcm_topic;
-  param_nh.param("rtcm_topic", rtcm_topic, std::string("rtcm"));
+  //param_nh.param("rtcm_topic", rtcm_topic, std::string("rtcm")); 
+  param_nh.param("/ublox_gps/rtcm", rtcm_topic, std::string("rtcm"));
   subRTCM = nh->subscribe(rtcm_topic, 10, rtcmCallback);
   
 

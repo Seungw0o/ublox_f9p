@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <launch>
-  <arg name="node_name" />
-  <arg name="param_file_name" doc="name of param file, e.g. rover" />
+  <!-- <arg name="node_name" value="ublox_gps"/> -->
+  <arg name="node_name" value="ublox_gps"/>
+  <arg name="param_file_name" value="zed-f9p" />
   <arg name="output" default="screen" />
   <arg name="respawn" default="true" />
   <arg name="respawn_delay" default="30" />
