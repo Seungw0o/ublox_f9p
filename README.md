@@ -26,7 +26,9 @@ NavRELPOSNED.msg updated to match u-blox 9 protocol version 27.1
 # Quick Start
 
 ```roslaunch ublox_gps ublox_device.launch```
+
 ```roslaunch ntrip_ros ntrip_ros.launch```
+
 ```roslaunch utm_lla coordinate_convertion.launch```
 
 Check ```rostopic echo /utm```
