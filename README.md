@@ -25,6 +25,8 @@ NavRELPOSNED.msg updated to match u-blox 9 protocol version 27.1
 
 # Quick Start
 
+Set the Ntrip ID and Password at '''ntrip_ros.launch'''
+
 ```roslaunch ublox_gps ublox_device.launch```
 
 ```roslaunch ntrip_ros ntrip_ros.launch```
