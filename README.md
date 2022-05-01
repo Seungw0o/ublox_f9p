@@ -23,7 +23,7 @@ Disabled configuration of the receiver via yaml. Reciever should be configured v
 Hardcoded to work as HPG Rover device.
 NavRELPOSNED.msg updated to match u-blox 9 protocol version 27.1
 
-##### Quick Start
+# Quick Start
 
 ```roslaunch ublox_gps ublox_device.launch```
 ```roslaunch ntrip_ros ntrip_ros.launch```
